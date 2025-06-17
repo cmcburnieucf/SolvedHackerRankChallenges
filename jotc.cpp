@@ -1,3 +1,4 @@
+//The challenge can be accessed here: https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=false
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -12,7 +13,8 @@ vector<string> split(const string &);
  * The function is expected to return an INTEGER.
  * The function accepts INTEGER_ARRAY c as parameter.
  */
-
+//Note: Only the code inside the function jumpingOnClouds() is mine.
+//Everything else was provided by the problem creator.
 int jumpingOnClouds(vector<int> c) {
     int minJumps = 0, len = c.size(), i = 0;
     
